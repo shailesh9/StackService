@@ -10,6 +10,6 @@ Implementation of Stack Data Structure as a service using
 
 **Getting Started**
 
-> npm install
-> grunt
->node dist/api.js
+ - npm install
+ - grunt
+ - node dist/api.js
