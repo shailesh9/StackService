@@ -1,0 +1,40 @@
+{
+  "name": "StackService",
+  "version": "1.0.0",
+  "author": {
+    "name": "Shailesh Shekhawat",
+    "email": "shekhawat642@gmail.com"
+  },
+  "scripts": {
+    "start": "node dist/api.js"
+  },
+  "description": "Stack Service",
+  "main": "dist/api.js",
+  "engines": {
+    "node": ">=4.4.4"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shailesh9/StackService.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "express-session": "^1.14.2",
+    "jade": "^1.11.0",
+    "node-uuid": "^1.4.7"
+  },
+  "devDependencies": {
+    "babel-polyfill": ">=6.7.2",
+    "babel-preset-es2015": ">=6.6.0",
+    "grunt": "^0.4.5",
+    "grunt-babel": "^6.0.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
